@@ -14,7 +14,7 @@
             color: #333;
         }
         .container {
-            max-width: 650px;
+            max-width: 600px;
             margin: 40px auto;
             background: #ffffff;
             padding: 30px;
@@ -23,70 +23,57 @@
         }
         h1 {
             color: #2c3e50;
-            font-size: 24px;
+            font-size: 22px;
+            margin-bottom: 5px;
+        }
+        .app-title {
+            color: #7f8c8d;
+            font-size: 14px;
+            margin-bottom: 20px;
         }
         h2 {
             color: #34495e;
-            font-size: 18px;
+            font-size: 16px;
             margin-top: 20px;
         }
-        ul {
-            padding-left: 20px;
+        .notice-box {
+            background-color: #eef9fe;
+            border-left: 4px solid #3498db;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
         }
-        li {
-            margin-bottom: 8px;
-        }
-        .email-btn {
-            display: inline-block;
-            margin-top: 15px;
-            padding: 12px 20px;
-            background-color: #e74c3c;
-            color: #ffffff;
-            text-decoration: none;
-            border-radius: 5px;
+        .email-link {
+            color: #e74c3c;
             font-weight: bold;
+            text-decoration: none;
         }
-        .email-btn:hover {
-            background-color: #c0392b;
-        }
-        .footer {
-            margin-top: 30px;
-            font-size: 13px;
-            color: #7f8c8d;
+        .email-link:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
 
 <div class="container">
-    <h1>MindQuiz: Brain Challenge</h1>
-    <p><strong>Account & Data Deletion Request</strong></p>
-    <hr>
+    <h1>Account & Data Deletion</h1>
+    <div class="app-title">MindQuiz: Brain Challenge</div>
 
-    <p>If you wish to delete your account and associated data for <strong>MindQuiz: Brain Challenge</strong>, you can request full data removal at any time.</p>
-
-    <h2>Steps to Request Account Deletion:</h2>
-    <ol>
-        <li>Send an email to our support team using the button below or directly via email.</li>
-        <li>Use the subject line: <strong>Account Deletion Request - MindQuiz</strong>.</li>
-        <li>Provide your registered Google Sign-In email address in the body of the message.</li>
-    </ol>
+    <div class="notice-box">
+        <strong>Automatic Deletion Notice:</strong><br>
+        If you want to delete your account and associated data, simply <strong>uninstall/delete the app</strong> from your device. Your account and personal data will be automatically deleted from our servers within a few days (72 hours).
+    </div>
 
     <h2>Data That Will Be Deleted:</h2>
     <ul>
-        <li>Profile information (Name, Email address, Profile picture URL).</li>
-        <li>App activity history (Quiz scores, progress, and performance data).</li>
-        <li>Unique User IDs and associated database records.</li>
+        <li>Your profile details (Name, Email ID, Profile Picture).</li>
+        <li>Your quiz scores, achievements, and gameplay history.</li>
+        <li>Associated User ID and session tokens.</li>
     </ul>
 
-    <h2>Data Retention Period:</h2>
-    <p>Upon receiving your request, your account and all associated personal data will be permanently deleted from our Firebase servers within <strong>7 days</strong>.</p>
-
-    <a href="mailto:brightlabscode@gmail.com?subject=Account%20Deletion%20Request%20-%20MindQuiz" class="email-btn">Request Account Deletion</a>
-
-    <div class="footer">
-        <p>Developer: MindQuiz Team | Contact: your-email@gmail.com</p>
-    </div>
+    <h2>Need Assistance?</h2>
+    <p>If you face any issue or want immediate account removal, please send an email to us at:</p>
+    <p>📧 <a href="mailto:brightlabscode@gmail.com?subject=Account%20Deletion%20Request%20-%20MindQuiz" class="email-link">brightlabscode@gmail.com</a></p>
 </div>
 
 </body>
